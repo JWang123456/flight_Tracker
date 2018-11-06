@@ -1,5 +1,9 @@
 var Flight = require('./flightinfo');
 
+var logger = require('./logger');
+
+// logger.anicefunction('this is a message');
+logger('this is a message');
 var flightInfo1 = {
     number: 'AA1234',
     departure: 'LAX',
